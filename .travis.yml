@@ -4,5 +4,6 @@ python:
 install:
 - pip install -r dev-requirements.txt
 - pip install .
+- pip freeze
 script:
 - pytest test/test_*.py
